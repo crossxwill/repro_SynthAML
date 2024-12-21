@@ -1,10 +1,14 @@
 # Repro SynthAML
 
-## Requirements:
+## Requirements
 
 1. Install Miniforge (package manager): https://github.com/conda-forge/miniforge
 
-2. Install VS Code (IDE): https://code.visualstudio.com/
+2. Install VS Code (IDE): https://code.visualstudio.com
+
+3. Install Git: https://git-scm.com
+
+4. Install GitHub Desktop: https://github.com/apps/desktop
 
 ## Install Python Environment
 
@@ -24,4 +28,24 @@ mamba activate env_AutoGluon_202412
 
 ```sh
 code
+```
+
+## Import VS Code Settings (on Windows)
+
+1. Import VS code extensions:
+
+```sh
+FOR /F "usebackq tokens=*" %%A IN ("vscode_extensions.txt") DO code --install-extension %%A
+```
+
+2. Import VS code settings:
+
+```sh
+copy /Y .\vscode_settings.json "%APPDATA%\Code\User\settings.json"
+```
+
+3. Import VS code keybindings:
+
+```sh
+copy /Y .\vscode_keybindings.json "%APPDATA%\Code\User\keybindings.json"
 ```
