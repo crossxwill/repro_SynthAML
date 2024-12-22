@@ -35,17 +35,17 @@ code
 1. Import VS code extensions:
 
 ```sh
-FOR /F "usebackq tokens=*" %%A IN ("vscode_extensions.txt") DO code --install-extension %%A
+FOR /F "usebackq tokens=*" %A IN (".\\.vscode\\vscode_extensions.txt") DO code --install-extension %A
 ```
 
 2. Import VS code settings:
 
 ```sh
-copy /Y .\vscode_settings.json "%APPDATA%\Code\User\settings.json"
+copy /Y .\\.vscode\\vscode_settings.json "%APPDATA%\\Code\\User\\settings.json"
 ```
 
 3. Import VS code keybindings:
 
 ```sh
-copy /Y .\vscode_keybindings.json "%APPDATA%\Code\User\keybindings.json"
+copy /Y .\\.vscode\\vscode_keybindings.json "%APPDATA%\\Code\\User\\keybindings.json"
 ```
