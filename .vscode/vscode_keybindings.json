@@ -1,0 +1,11 @@
+[
+    {
+        "key": "ctrl+shift+enter",
+        "command": "-editor.action.insertLineBefore",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+enter",
+        "command": "jupyter.runFileInteractive"
+    }
+]

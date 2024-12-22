@@ -1,0 +1,65 @@
+{
+    "editor.inlineSuggest.enabled": true,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "remote.SSH.remotePlatform": {
+        "ec2-13-57-217-108.us-west-1.compute.amazonaws.com": "linux",
+        "ec2-54-215-206-13.us-west-1.compute.amazonaws.com": "linux",
+        "ec2-13-56-156-35.us-west-1.compute.amazonaws.com": "linux",
+        "54.151.53.78": "linux"
+    },
+    "git.autofetch": true,
+    "github.copilot.enable": {
+        "quarto": "true",
+        "qmd": "true",
+        "*": true,
+        "py": "true",
+        "sql": "true",
+        "ipynb": "true",
+        "md": "true"
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "editor.minimap.enabled": false,
+    "dataWrangler.experiments.fastCsvParsing": true,
+    "notebook.lineNumbers": "on",
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Visual Studio Light",
+    "settingsSync.ignoredSettings": [
+        "-python.condaPath",
+        "-python.createEnvironment.contentButton",
+        "-python.experiments.enabled",
+        "-python.defaultInterpreterPath"
+    ],
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "terminal.integrated.env.windows": {},
+    "extensions.autoUpdate": false,
+    "aws.suppressPrompts": {
+        "codeWhispererNewWelcomeMessage": true,
+        "codeWhispererConnectionExpired": true
+    },
+    "python.defaultInterpreterPath": "C:\\Users\\chiuw\\intelpython3\\python.exe",
+    "workbench.editorAssociations": {
+        "file:/**/*.csv": "jupyter-data-wrangler"
+    },
+    "interactiveWindow.collapseCellInputCode": "never",
+    "jupyter.interactiveWindow.textEditor.autoAddNewCell": true,
+    "jupyter.interactiveWindow.textEditor.autoMoveToNextCell": true,
+    "files.autoSave": "afterDelay",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "right"
+    },
+    "notebook.consolidatedRunButton": true,
+    "notebook.outline.showCodeCells": true,
+    "interactiveWindow.executeWithShiftEnter": true,
+    "notebook.output.scrolling": true,
+    "git.enableSmartCommit": true,
+    "window.openFilesInNewWindow": "default",
+    "workbench.editor.enablePreview": false
+
+}
