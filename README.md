@@ -30,7 +30,7 @@ mamba activate env_AutoGluon_202412
 code
 ```
 
-## Import VS Code Settings (on Windows)
+## Import VS Code Settings (using Windows Command Prompt - not PowerShell)
 
 1. Import VS code extensions:
 
